@@ -3,6 +3,7 @@ add prev next button
 add js selections
 add starting item and load initial item
 add showPerson function
-add next person event
+add show next person event
 add next person limit event 
-add prev person 
+add show prev person 
+add show random person
