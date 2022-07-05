@@ -1,3 +1,4 @@
 add main add section and article
 add prev next button
 add js selections
+add starting item and load initial item
