@@ -57,7 +57,6 @@ window.addEventListener('DOMContentLoaded', function(){
 });
 
 // show person based on item
-
 function showPerson(person){
   const item = reviews[person];
   img.src = item.img;
@@ -65,3 +64,9 @@ function showPerson(person){
   job.textContent = item.job;
   info.textContent = item.text;
 }
+
+// show next person
+nextBtn.addEventListener('click', function(){
+  currentItem++;
+  showPerson(currentItem);
+});
